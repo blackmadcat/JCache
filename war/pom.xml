@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.forcom.projectx</groupId>
-        <artifactId>parent</artifactId>
+        <groupId>net.blackmadcat</groupId>
+        <artifactId>JCache-example</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

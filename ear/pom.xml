@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.forcom.projectx</groupId>
-        <artifactId>parent</artifactId>
+        <groupId>net.blackmadcat</groupId>
+        <artifactId>JCache-example</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -15,24 +15,24 @@
     <name>ear-module</name>
 
     <build>
-        <finalName>projectX</finalName>
+        <finalName>JCache-example</finalName>
         <plugins>
             <!--Ear plugin -creating the ear - watch out skinny WARS!-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-ear-plugin</artifactId>
                 <configuration>
-                    <finalName>projectX</finalName>
+                    <finalName>JCache-example</finalName>
                     <defaultJavaBundleDir>lib/</defaultJavaBundleDir>
                     <skinnyWars>true</skinnyWars>
                     <modules>
                         <webModule>
-                            <groupId>com.forcom.projectx</groupId>
+                            <groupId>net.blackmadcat</groupId>
                             <artifactId>web-module</artifactId>
                             <context-root>/sample-app</context-root>
                         </webModule>
 <!--                        <ejbModule>
-                            <groupId>com.forcom.projectx</groupId>
+                            <groupId>net.blackmadcat</groupId>
                             <artifactId>ejb-module</artifactId>
                         </ejbModule>-->
                     </modules>
@@ -43,7 +43,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.forcom.projectx</groupId>
+            <groupId>net.blackmadcat</groupId>
             <artifactId>web-module</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>war</type>

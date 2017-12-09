@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.forcom.projectx</groupId>
-    <artifactId>parent</artifactId>
+    <groupId>net.blackmadcat</groupId>
+    <artifactId>JCache-example</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -32,7 +32,8 @@
         <ejb-plugin-version>2.3</ejb-plugin-version>
         <war-plugin-version>2.4</war-plugin-version>
         <ear-plugin-version>2.9</ear-plugin-version>
-        <compiler-plugin-version>3.1</compiler-plugin-version>
+        <compiler-plugin-version>3.2</compiler-plugin-version>
+
 
         <!-- test libs versions -->
 

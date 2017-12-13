@@ -1,8 +1,5 @@
-import cache.CacheBuffer;
-import cache.SelectionStrategy;
-import cache.SelfManagedCache;
-import cache.SelfManagedCacheDefault;
-import org.assertj.core.api.OptionalAssert;
+package cache;
+
 import org.junit.Before;
 import org.junit.Test;
 
